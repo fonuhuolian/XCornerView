@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+    <org.fonuhuolian.xcornerview.XCornerImageView
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:cornerImageRadius="20dp"
+        app:cornerImageScaleType="centerCrop"
+        app:cornerImageSrc="@mipmap/ic_launcher" />
+
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:scaleType="center"/>-->
+
+
+    <!--        <org.fonuhuolian.xcornerview.XCornerFrameLayout-->
+    <!--            android:layout_width="200dp"-->
+    <!--            android:layout_height="150dp"-->
+    <!--            app:cornerLayoutRadius="20dp"-->
+    <!--            app:cornerLayoutBackgroundColor="#EA0E0E"-->
+    <!--            android:text="Hello World!"-->
+    <!--            android:clickable="true"-->
+    <!--            app:cornerLayoutUseRipple="false" />-->
+
+    <!--        <ImageView-->
+    <!--            android:scaleType="center"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textSize="50dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:textColor="#FFFFFF"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:text="4454gfgrg"/>-->
+
+    <!--    </org.fonuhuolian.xcornerview.XCornerFrameLayout>-->
+
+
+</FrameLayout>

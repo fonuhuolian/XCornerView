@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="XCornerFrameLayout">
+        <attr name="cornerLayoutRadius" format="dimension|reference" />
+        <attr name="cornerLayoutBackgroundColor" format="color|reference" />
+        <attr name="cornerLayoutContentPadding" format="dimension|reference" />
+        <attr name="cornerLayoutContentPaddingTop" format="dimension|reference" />
+        <attr name="cornerLayoutContentPaddingBottom" format="dimension|reference" />
+        <attr name="cornerLayoutContentPaddingLeft" format="dimension|reference" />
+        <attr name="cornerLayoutContentPaddingRight" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="XCornerImageView">
+        <attr name="cornerImageAdjustViewBounds" format="boolean|reference" />
+        <attr name="cornerImageRadius" format="dimension|reference" />
+        <attr name="cornerImageSrc" format="reference" />
+        <attr name="cornerImageScaleType">
+            <enum name="matrix" value="0" />
+            <enum name="fitXY" value="1" />
+            <enum name="fitStart" value="2" />
+            <enum name="fitCenter" value="3" />
+            <enum name="fitEnd" value="4" />
+            <enum name="center" value="5" />
+            <enum name="centerCrop" value="6" />
+            <enum name="centerInside" value="7" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="XCornerSquareImageView">
+        <attr name="cornerSquareImageAdjustViewBounds" format="boolean|reference" />
+        <attr name="cornerSquareImageRadius" format="dimension|reference" />
+        <attr name="cornerSquareImageSrc" format="reference" />
+        <attr name="cornerSquareImageScaleType">
+            <enum name="matrix" value="0" />
+            <enum name="fitXY" value="1" />
+            <enum name="fitStart" value="2" />
+            <enum name="fitCenter" value="3" />
+            <enum name="fitEnd" value="4" />
+            <enum name="center" value="5" />
+            <enum name="centerCrop" value="6" />
+            <enum name="centerInside" value="7" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>
